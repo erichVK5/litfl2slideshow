@@ -46,7 +46,7 @@ public class labelImages {
 		currentTextYCoord -= 35;
 		g.drawString("Image downloaded from litfl.com", 10, currentTextYCoord);
 		g.dispose();
-		ImageIO.write(newImage, "png", new File("modified/" + newFile));
+		ImageIO.write(newImage, "png", new File("modified/" + newFile + ".png"));
 		counter++;
 		if (false && counter > 300) {
 			break;
