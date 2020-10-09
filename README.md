@@ -45,3 +45,4 @@ On linux, the image viewing utility 'eye of mate' has a random slideshow option,
 
 sudo apt-get install eom
 
+Alternatively, the screensaver 'xscreensaver' can be configured to use a directory of images for a slide show. Under the advanced tab in your screensaver preferences on GNU/Linux, the directory of images can be selected. In the preferences for xscreensaver, select GLslideshow as the screensaver application, and under the settings for GLslideshow, set zoom to 100% and cross fade to zero. Your computer should now display a slide show of labeled ECGs when unattended.
