@@ -1,6 +1,16 @@
 # litfl2slideshow
 convert images from a batch downloaded website into a labelled slideshow for standalone use
 
+There is a set of already labelled images in the slideshow_images directory to save you the effort of scraping the original website. Simply clone the git repository with either
+
+git clone https://github.com/erichVK5/litfl2slideshow
+
+or, by clicking on the green clone button and select .zip download.
+
+At this point you will have a directory full of labelled images which can be used as a slide show or in a screensaver.
+
+Background / Deep Dive
+
 Given a web site with a library of images embedded in HTML for teaching purposes, you might prefer to dispense with the browser and create a local directory of the same images with labels, to allow a simple slideshow.
 
 This repository contains a set of bash shell scripts that employ the sed and grep utilities and awk to pre-process the cloned website data, which then allows a simple java utility to embed the downloaded image into a larger image that includes three text labels below the image. The labels consist of 1) a credit mentioning litfl.com, 2) the file name, and 3) the 'alt' text label from the HTML which embeds the image. The scripts attempt to exclude content that is not related to the teaching content.
